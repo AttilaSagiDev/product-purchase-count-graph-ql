@@ -1,6 +1,6 @@
 # **Magento 2 Product Purchase Count GraphQL Extension** #
 
-[![M2 Coding Standard](https://github.com/AttilaSagiDev/product-purchase-count-graph-ql/actions/workflows/codesniffer-actions.yml/badge.svg)](https://github.com/AttilaSagiDev/product-purchase-count-graph-ql/actions/workflows/codesniffer-actions.yml)
+[![M2 Coding Standard](https://github.com/AttilaSagiDev/product-purchase-count-graph-ql/actions/workflows/codesniffer-actions.yml/badge.svg?branch=develop)](https://github.com/AttilaSagiDev/product-purchase-count-graph-ql/actions/workflows/codesniffer-actions.yml)
 
 ## Description ##
 
