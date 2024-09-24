@@ -1,0 +1,11 @@
+# Copyright (c) 2024 Attila Sagi
+# @license http://www.opensource.org/licenses/mit-license.html  MIT License
+
+type Query {
+    productPurchaseCount(product_id: Int! @doc(description: "The unique product ID.")): ProductPurchaseCount @resolver (class: "\\Space\\ProductPurchaseCountGraphQl\\Model\\Resolver\\ProductPurchaseCount") @doc(description:"Return information about about how many unique customers bought the specific product.") @cache(cacheable: true)
+}
+
+type ProductPurchaseCount @doc(description: "Defines details about how many unique customers bought the specific product.") {
+    count: String! @doc(description: "Required. The value of the purchase count.")
+    notification_text: String! @doc(description: "Required. The message of the purchase count.")
+}
