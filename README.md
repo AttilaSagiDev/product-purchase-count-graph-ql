@@ -21,7 +21,7 @@ Support:
 
 ** Important! Always install and test the extension in your development environment, and not on your live or production server. **
 
-1. Backup your store database and the whole Magento 2 directory.
+1. Backup your store database and the whole Magento 2 directory
 
 2. Install Product Purchase Count Magento 2 extension. Please see:
    https://github.com/AttilaSagiDev/product-purchase-count/releases/
@@ -37,7 +37,7 @@ Support:
 
 ## Change Log ##
 
-Version 1.0.0 - Sep 24, 2024
+Version 1.0.0 - Sep 25, 2024
 - Compatibility with Magento Community Edition  2.4.x
 
 - Compatibility with Adobe Commerce 2.4.x
